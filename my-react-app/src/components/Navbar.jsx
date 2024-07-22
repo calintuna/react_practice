@@ -1,12 +1,15 @@
 
+import Button from 'react-bootstrap/Button';
 
-function Navbar() {
+function AppNavbar(props) {
+  const handleShow = () => props.setShow(true);
 
-    return (
-        <>
-        </>
-    );
+  return (
+    <>
+      
+    </>
+  );
 }
 
 
-export default Navbar;
+export default AppNavbar;
